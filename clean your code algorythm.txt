@@ -1,0 +1,25 @@
+
+clean your code 
+
+algorythm
+
+-the idea:
+create a program that takes "dirty" html code with lines of style attributes 
+and devide it into two textfiles, one with the html code and one with 
+the css code. the user shall be able to decide, if certain css code shall be 
+created as a class or with tag-links.
+
+an extended version will also separate scripts into a javascriptfile
+
+-the algorythm
+
+create a prompt that can take the copied html code as a pasted string.
+
+check the code line by line for the keyword style=
+string.indexOf(searchstring, startposition) gives back the first appearence of the searched string.
+store the index in an array.
+repeat with the new startposition that is index+5, until the  end of the string is reached.
+(do while?)
+
+
+
