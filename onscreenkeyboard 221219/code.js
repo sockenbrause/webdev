@@ -5,13 +5,18 @@
 
 let oSKeyboardO=document.getElementById('oSKeyboard');
 //oSKeyboardF();
-oSKeyboardO.addEventListener('click', oSKeyboardF);
-//oSKeyboardO.addEventListener("touchstart", handleStart, false);
-document.querySelector('body').addEventListener('resize', oSKeyboardF);
+oSKeyboardO.addEventListener('click', oSKeyboardInitF);
+//oSKeyboardO.addEventListener("touchstart", oSKeyboardInitF, false);
+window.addEventListener('resize', oSKeyboardInitF);//calls the keyboardinit when the viewport size is changed.      
+//oSKeyboardInitF;
+/*window.addEventListener('resize', function () { 
+    "use strict";
+    window.location.reload(); 
+});*/
 
 
-
-function oSKeyboardF(e){
+function oSKeyboardInitF(){
+    console.log('moin');
 let oSKeyboardO=document.getElementById('oSKeyboard');
 oSKeyboardO.innerHTML='';
 //console.log(oSKeyboardO);
@@ -53,13 +58,15 @@ oSKeyboardO.appendChild(divO);
 
     }//end key loop
 }//end row loop
-
-return(e.target.innerText);
+console.log('howdy')
+//location.reload();
+//return(e.target.innerText);
 }
 
 
-kbDisplay=document.querySelector('#keyboardDisplay').lastChild;
-console.log(kbDisplay);//=oSKeyboardF();
+//kbDisplay=document.querySelector('#keyboardDisplay').firstChild;
+//kbDisplay.innerText=(oSKeyboardF());
+//console.log(oSKeyboardF());//=oSKeyboardF();
 
 //let xxS='blabla';
 //console.log((xxS.substr(10, 1))==''?'empty':'yeah');
