@@ -12,8 +12,15 @@ window.addEventListener('resize', oSKeyboardInitF);//calls the keyboardinit when
 
 function oSKeyboardF(e){
   //  let oSKeyboardO=document.getElementById('oSKeyboard');
-console.log('juhu!');
-  return 'tach';// e.target.innerText;
+console.log('juhu!',e.target.innerHTML);
+if(e.target.classList.contains('key')){
+
+let kbDisplay=document.querySelector('#keyboardDisplay h1');
+console.log(kbDisplay,'the vault')
+kbDisplay.innerHTML=e.target.innerHTML;
+// return e.target.innerText;
+}
+ // return 'tach';// e.target.innerText;
 }
 
 function oSKeyboardInitF(){
@@ -65,9 +72,8 @@ console.log('howdy')
 }
 
 
-kbDisplay=document.querySelector('#keyboardDisplay').firstChild;
-//kbDisplay.innerText=
-console.log(oSKeyboardF(),'yeah');
+
+//console.log(oSKeyboardF(),'yeah');
 //console.log(oSKeyboardF());//=oSKeyboardF();
 
 //let xxS='blabla';
