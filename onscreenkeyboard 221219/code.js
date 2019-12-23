@@ -4,8 +4,10 @@
 //
 
 let oSKeyboardO=document.getElementById('oSKeyboard');
-oSKeyboardInitF;
 
+// event listeners
+//document.querySelector("body").addEventListener("load", oSKeyboardInitF);
+document.addEventListener("DOMContentLoaded", oSKeyboardInitF);
 oSKeyboardO.addEventListener('click', oSKeyboardF);
 //oSKeyboardO.addEventListener("touchstart", oSKeyboardInitF, false);
 window.addEventListener('resize', oSKeyboardInitF);//calls the keyboardinit when the viewport size is changed.      
