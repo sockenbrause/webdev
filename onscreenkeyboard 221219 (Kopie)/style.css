@@ -25,6 +25,7 @@
     width: 80vw;
 margin: 5px;
 padding: 2px;
+background-color: grey;
 background-image: linear-gradient(to bottom right, rgb(189, 189, 189) , rgb(94, 94, 94));
 
 border-radius: 10px;
