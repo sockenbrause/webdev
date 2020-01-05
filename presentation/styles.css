@@ -1,17 +1,20 @@
-
+body {
+font-size: 22px;
+}
 p, h1,h2,h3,h4,h5,li,a {opacity: 0.7;
+  font-family: 'Times New Roman', Times, serif!important;
 }
 
 .paperfg {
   z-index: 12;
-  background-size: 80%;
+/*  background-size: 80%;*/
   background-image: url("assets/paperfg.png");
   background-repeat: no-repeat;
 background-position: center top;}
 .paperbg{
 
 z-index: -2;
- background-size: 80%;
+ /*background-size: 80%;*/
    background-image: url(assets/paperbg.png);
     background-repeat: no-repeat;
   background-position: center top;
@@ -21,10 +24,11 @@ z-index: -2;
   }
 
 body h1{text-align:center;}
+/*
 h1 { font-size: 80px; font-stretch: expand ;margin-top: 10px; margin-bottom: 10px; }
 h2 { font-size:60px; margin-top: 10px; margin-bottom: 10px;}
 h3 { font-size:25px;margin-top: 5px; margin-bottom: 5px; }
-p { font-size:25px;margin-top: 5px; margin-bottom: 5px; }
+/*p { font-size:25px;margin-top: 5px; margin-bottom: 5px; }*/
 
 /* Place the navbar at the bottom of the page, and make it stick */
 .navbar {
@@ -76,8 +80,10 @@ color: rgba(34, 20, 11, 0.76);
 /*the forgroundimage that is used as an overlay to create a scratched effect on everything printed*/
 .imgfg {
   position: absolute;
-  left: 10.5%;
-  top: 40px;
+  /*left: 10.5%;
+  top: 40px;*/
+    left: 0%;
+  top: 0px;
 z-index: 2;
   opacity: 0.7;
 pointer-events: none;
