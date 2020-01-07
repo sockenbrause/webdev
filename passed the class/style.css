@@ -1,5 +1,16 @@
 th,td{
+    margin: 10px;
     width:100vw;
     border:3px solid grey;
+    border-radius: 15px;
     text-align: center;
+    padding: 5px;
+    background-color: rgb(218, 250, 250);
+    box-shadow: 3px 3px rgb(175, 175, 175);
 }
+
+.noPass>tr>th,.noPass>tr>td{
+    background-color: rgb(252, 86, 80);
+    color: white;
+}
+h3{tex-align:center;}
