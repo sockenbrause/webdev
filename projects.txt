@@ -1,0 +1,14 @@
+space invaders	 	the classical game  with a new look
+			actual state: first programming steps
+clean your code 	an app that takes "dirty" html code with style attributes and script
+			and seperates it into an html-file a css-file and a javascript-file
+			actual state: algorythm at 70%
+thomas crown blend	a blendover effect that separates a screen into seperate windows
+			and than changes to another screen like in the movie the thomas crown afair
+			actual state: idea in planing
+checklist app		a collection of checkboxes the user can name by himself.
+			also the user can add new checkboxes
+			actual state: idea in planing
+update western website	the website is allready created but not segmented in divs and without
+			layout.
+			actual state: on hold
